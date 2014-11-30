@@ -1,9 +1,36 @@
+.main {
+    margin-top: 20px;
+}
 
-.mypicture {
-    width: 200px;
-    height: 200px;
+.my_picture {
+    width: 199px;
+    height: 199px;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	background: url(res/img/me.jpg) no-repeat;
+}
+
+.links_block  ul li {
+    list-style-type: none;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em;
+    text-align: left;
+    
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    transform: translateY(-70%);
+}
+.links_block  a {
+    text-decoration: none;
+    color: #606060;
+}
+.links_block  a:hover {
+    color: #C0C0C0;
+}
+
+.my_picture, .links_block {
+    display: inline-block;
 }
